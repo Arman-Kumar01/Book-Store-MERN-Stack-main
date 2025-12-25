@@ -1,26 +1,67 @@
-# Book Store MERN stack project
+# Book Store MERN Stack
 
-## Lessons
+A full-stack web application for managing a book store, built with the MERN stack (MongoDB, Express.js, React, Node.js).
 
-- [x] Lesson 01: Create Node.js project from scratch
-- [x] Lesson 02: Create our first Http Route
-- [x] Lesson 03: Add MongoDB and mongoose to node js
-- [x] Lesson 04: Create Book model with mongoose
-- [x] Lesson 05: Save a new Book with mongoose
-- [x] Lesson 06: Get All Books with mongoose
-- [x] Lesson 07: Get One Book by id with mongoose
-- [x] Lesson 08: Update a Book with mongoose
-- [x] Lesson 09: Delete a book with mongoose
-- [x] Lesson 10: Refactor Node js with express router
-- [x] Lesson 11: CORS policy in Node js and Express js
-- [x] Lesson 12: Create React project, Vite, Tailwind CSS
-- [x] Lesson 13: SPA and Add react router dom
-- [x] Lesson 14: Show Books List in React
-- [x] Lesson 15: Show Book Details in React
-- [x] Lesson 16: Create Book in React
-- [x] Lesson 17: Edit Book in React
-- [x] Lesson 18: Delete Book in React
-- [x] Lesson 19: Show Books List as Card
-- [x] Lesson 20: Make Book Card a single component
-- [x] Lesson 21: Add Book Modal
-- [x] Lesson 22: Improve User Experience (UX) with beautiful alert
+## Features
+
+- **CRUD Operations**: Create, read, update, and delete books.
+- **Responsive UI**: Built with React, Vite, and Tailwind CSS for a modern, mobile-friendly interface.
+- **Backend API**: RESTful API with Express.js and MongoDB for data persistence.
+- **User Experience**: Includes loading spinners, notifications, and modal dialogs.
+
+## Tech Stack
+
+- **Frontend**: React, Vite, Tailwind CSS, Axios
+- **Backend**: Node.js, Express.js, MongoDB, Mongoose
+- **Other**: CORS for cross-origin requests
+
+## Installation
+
+1. **Clone the repository**:
+   ```bash
+   git clone https://github.com/your-username/book-store-mern-stack.git
+   cd book-store-mern-stack
+   ```
+
+2. **Install backend dependencies**:
+   ```bash
+   cd backend
+   npm install
+   ```
+
+3. **Install frontend dependencies**:
+   ```bash
+   cd ../frontend
+   npm install
+   ```
+
+4. **Set up MongoDB**: Ensure MongoDB is running locally or update the connection string in `backend/config.js`.
+
+5. **Start the backend**:
+   ```bash
+   cd backend
+   npm run dev
+   ```
+
+6. **Start the frontend** (in a new terminal):
+   ```bash
+   cd frontend
+   npm run dev
+   ```
+
+7. Open [http://localhost:5173](http://localhost:5173) in your browser.
+
+## Usage
+
+- Navigate to the home page to view all books in table or card format.
+- Use the "Add Book" button to create new books.
+- Click on a book to view details, edit, or delete it.
+
+## Project Structure
+
+- `backend/`: Express.js server, models, routes, and database config.
+- `frontend/`: React application with components and pages.
+
+## License
+
+ISC
